@@ -18,4 +18,9 @@ end
     new_array
   end
     
+    def printer
+      puts batch_badge_creator.concat(assign_rooms(name))
+    end
+    
+      
     
