@@ -12,5 +12,5 @@ end
     
   def assign_rooms(people)
     new_array = []
-    
+    people.each_with_index.collect do {|name| |index|
     
